@@ -9,32 +9,25 @@ resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | Jaykumar"
+PAGE_TITLE = "Digital CV | K Krishna Chaithanya"
 PAGE_ICON = "📋"
-NAME = "Jay Kumar"
+NAME = "K Krishna Chaithanya"
 DESCRIPTION = """
-A passionate Data Analyst working as a Business Analyst.
+An aspiring Python Developer with hands-on experience in AI/ML and data-driven solutions for real-time systems.
 """
-EMAIL = "jaykumar25012001@gmail.com"
+EMAIL = "kkchaithanya2k0@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/jaykumar-m-41a0b31ab/",
-    "GitHub": "https://github.com/jayeshironside",
+    "LinkedIn": "http://www.linkedin.com/in/k-k-chaithanya",
+    "GitHub": "https://github.com/kkchaithanya007",
 }
 PROJECTS = {
-    "Langchain Apps - Created chatbots & useful applications.": "https://github.com/jayeshironside/Langchain_Projects.git",
-    "Spotify Wrapped - Spotify streaming history analysis.": "https://github.com/jayeshironside/Spotify-Streaming-history-analysis.git",
-    "Gmail - Analyse inbox and sent mails trend.": "https://github.com/jayeshironside/Gmail_Analysis.git",
-    "Youtube Wrapped - Youtube watch history analysis.": "https://github.com/jayeshironside/Youtube-Wrapped.git",
-    "Whatsapp - Whatsapp chat history analysis.": "https://github.com/jayeshironside/Whatsapp-chat-analysis.git",
+    "Object Detection Practice - Custom YOLO model implementation.": "https://github.com/kkchaithanya007/ObjectDetection/tree/master/ObjectDetectionOnePractice"
 }
+
 CERTIFICATES = {
-    "Python Programming": "https://drive.google.com/file/d/13iXqXMHjFDJt9FaoJhjTFmMGldJkPO0e/view?usp=sharing",
-    "Introduction to Pandas": "https://drive.google.com/file/d/1H1Fb7GuSNwzqUTZb7-y9FpzQ4it_mY1n/view?usp=sharing",
-    "Data Visualization": "https://drive.google.com/file/d/1ztF65bSdTBwvAZ-_n4lcNtcbe6a49Saq/view?usp=sharing",
-    "Machine Learning with Python": "https://drive.google.com/file/d/1HytPWp4hhgORterAiwuCLI0eLr8dAHaV/view?usp=sharing",
-    "Business analysis basics": "https://drive.google.com/file/d/1VG0t5PjPQAbECDIMCNPRfOYZSSCRMr36/view?usp=drivesdk",
-    "Introduction to Business analysis": "https://drive.google.com/file/d/1VDNyGN1u2WlQ26vn8gjoGosvSNcn76QY/view?usp=drivesdk",
-    "Master Lancgain": "https://www.udemy.com/certificate/UC-e4519b6f-d279-44b5-9353-9ae178b21fe4/",
+
+    "Machine Learning with Python": "https://drive.google.com/file/d/1r1F2HSEipYNQBFtmYfoVDQSpvredzOmf/view?usp=sharing",
+    "DDOS Project with Java":"https://drive.google.com/file/d/128xZfoHp1NJex-P36r7RSJZJdEDqSLCe/view?usp=sharing"
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -75,11 +68,11 @@ st.write('\n')
 st.subheader("About me")
 st.write(
     """
-- ✔️ Expereinced in extracting actionable insights from data.
-- ✔️ Strong hands on experience and knowledge in Python and Excel.
-- ✔️ Good understanding of ML & LL models and its related frameworks.
-- ✔️ Expert in understanding the client's requirements and delivering the projects.
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks.
+- ✔️ Hands-on experience in building and deploying computer vision and ML models.
+- ✔️ Skilled in Python, Git, Streamlit, and automation of data workflows.
+- ✔️ Good understanding of YOLO models, OpenCV, and real-time edge deployments.
+- ✔️ Experienced in working with annotation tools like CVAT and managing training pipelines.
+- ✔️ Quick learner with strong problem-solving skills and passion for AI/ML systems.
 """
 )
 
@@ -88,11 +81,11 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas, Numpy, Langhchain), SQL.
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly, Matplotlib, Seaborn.
-- 📚 Modeling: Large language models, Logistic & linear regression, decision tree.
-- 💻 Designing: HTML, CSS, Bootstrap, Streamlit.
-- 🗄️ Databases: MongoDB, MySQL.
+- 👨‍💻 Programming: Python (OpenCV, Pandas, NumPy, Ultralytics), Bash, SQL.
+- 📊 Data Visualization: Grafana, Matplotlib, Seaborn, MS Excel.
+- 📚 Modeling: YOLOv8 (Object Detection), U-Net (Segmentation), CNN, EfficientNet, VGG, Transfer Learning.
+- 💻 Designing: HTML, CSS, Streamlit.
+- 🗄️ Databases: PostgreSQL, MySQL.
 """
 )
 
@@ -102,41 +95,16 @@ st.subheader("Work History")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Business Analyst | Naapbooks Limited**")
-st.write("01/2023 - Present")
+st.write("🚧", "**Software Engineer | LivNSense GreenOps Pvt. Ltd.**")
+st.write("10/2023 - 11/2024")
 st.write(
     """
-- ► Communicating and documenting project requirements.
-- ► Mapping processes and developing use cases.
-- ► Managing projects and ensuring quality through testing.
-- ► Utilizing data analysis to identify trends and patterns for informed decision-making.
-"""
-)
-
-# --- JOB 2
-st.write('\n')
-st.write("🚧", "**Sr. Client service executive | Aqkode healthcare Solutions Pvt. Ltd.**")
-st.write("09/2021 - 01/2023")
-st.write(
-    """
-- ► Senior Client Service Executive in the US healthcare industry.
-- ► Managed account receivables and handled rejection, denial, and payment issues.
-- ► Conducted eligibility verification audits and improved revenue cycle management.
-- ► Maintained timely, accurate, and satisfactory client communication.
-- ► Utilized strong analytical skills for complex problem-solving and patient eligibility verification.
-"""
-)
-
-# --- JOB 3
-st.write('\n')
-st.write("🚧", "**AR Executive | CrystalVoxx global LLP**")
-st.write("12/2020 - 09/2021")
-st.write(
-    """
-- ► Managed account receivables, rejections, and denial management.
-- ► Utilized strong analytical and problem-solving skills.
-- ► Identified and resolved complex payment issues.
-- ► Improved revenue cycle management.
+- ► Developed safety surveillance systems using Python, OpenCV, and PostgreSQL.
+- ► Built data dashboards in Grafana and automated reporting pipelines.
+- ► Supported AI/ML model integration, testing, and deployment for industrial safety projects.
+- ► Worked on ADAS for Indian Railways using facial landmark detection.
+- ► Deployed real-time monitoring solutions on edge devices for workplace safety.
+- ► Handled dataset labeling, auto-labeling, and preprocessing using CVAT and FiftyOne.
 """
 )
 
